@@ -12,6 +12,12 @@ import { SmallXComponent } from './small-x/small-x.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 import { environment } from '../environments/environment';
+import { HomePageComponent } from './home-page/home-page.component';
+import { AddIngredientPageComponent } from './add-ingredient-page/add-ingredient-page.component';
+import { ReipeSerchPageComponent } from './reipe-serch-page/reipe-serch-page.component';
+import { RceipeSerchPageComponent } from './rceipe-serch-page/rceipe-serch-page.component';
+import { RecipeSearchPageComponent } from './recipe-search-page/recipe-search-page.component';
+import { ShoppingListPageComponent } from './shopping-list-page/shopping-list-page.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +25,12 @@ import { environment } from '../environments/environment';
     BackButtonComponent,
     SmallXComponent,
     NavBarComponent,
+    HomePageComponent,
+    AddIngredientPageComponent,
+    ReipeSerchPageComponent,
+    RceipeSerchPageComponent,
+    RecipeSearchPageComponent,
+    ShoppingListPageComponent,
   ],
   imports: [
     BrowserModule,
